@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300&family=Sedgwick+Ave&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#Menu{
+    list-style: none;
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(245, 217, 242) , rgb(211, 247, 245),rgb(228, 205, 241) );
+    border: 2px solid black;
+}
+#Menu li{
+    display: inline;
+}
+#Menu li a{
+    display: inline;
+    text-decoration: none;
+    padding: 10PX;
+    display:inline-block;
+}
+#video p{
+    padding: 50%;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(245, 217, 242) , rgb(211, 247, 245),rgb(228, 205, 241) );
+    text-align: center;
+}
+body video{
+    padding: 1px;
+}
+body p{
+    padding: 50px;
+}
+footer{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+     margin-top: 20px;
+    height: 25vh;
+     background-image: linear-gradient(to right, rgb(199, 135, 194) , rgb(146, 199, 196),rgb(213, 169, 238) );
+    }
+    
+    footer p{
+     display: inline;
+     margin-right: 10px;
+    }
+    footer img{
+     margin-top: 10px;
+     align-items: center;
+     width: 40px;
+     margin-right: 10px;
+    }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Formulario.css" type="text/css">
+
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a target="_blank" href="Home.html">Home</a></li>
+            <li><a target="_blank" href="Contatos.html">Contato</a></li>
+        </ul>
+    </header>
+
+<section class="Form">
+
+<div class="div-form">
+    
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <h2>Formulário de cadastro</h2>
+            <label for="Nome">Nome: </label>
+            <input type="text" name="Nome" id="Nome" placeholder="Insira o seu nome" autocomplete="off" required><br>
+
+            <label for="Sobrenome">Sobrenome: </label>
+            <input type="text" name="Sobrenome" id="Sobrenome" placeholder="Insira o seu sobrenome" autocomplete="off" required><br>
+
+            <label for="Email">E-mail: </label>
+            <input type="email" name="Emaail" placeholder="Informe o seu e-mail" autocomplete="off" required><br>
+
+            <label for="Data">Data de Nascimento: </label>
+            <input type="date" name="Data de nascimento" autocomplete="off" required><br>
+
+            <label for="Telefone">Telefone: </label>
+            <input type="text" name="Telefone" placeholder="Informe o seu telefone" autocomplete="off" required><br>
+
+            <label for="WhatsApp">WhatsApp</label>
+            <input type="checkbox"><br>
+
+            <label for="Conteudo">Qual conteúdo mais te interessa?</label>
+            <select name="Conteudo" id="Conteudo">
+                <option value="Famosos">Famosos</option>
+                <option value="Novelas">Novelas</option>
+                <option value="Esportes">Esportes</option>
+                <option value="Finanças">Finanças</option>
+                <option value="Politica">Política</option>
+                <option value="Mundial">Mundial</option>
+            </select><br><br>
+
+            <label for="Termos">Concordo com os termos de uso</label>
+            <input type="checkbox"><br>
+
+            <label for="Termos">Aceito o envio de e-mails</label>
+            <input type="checkbox"><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+</div>
+
+<div>
+    <video src="../Contatos/Passo a passo de como preencher o formulário.mp4" controls></video>
+    <p><strong>Ainda com dúvida para preencher o formulário? Assista o vídeo!</strong></p>
+</div>
+    </section>
+</body>
+<footer>
+    <br></br><p> Aline Sousa &copy;; 2023 </p>
+    <p> Carlos Eduardo &copy;; 2023 </p>
+    <p> Claudia Bomfim &copy;; 2023 </p><br>
+
+     <a href="https://www.linkedin.com/company/soulcodeacademy/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt=""> </a>
+     <a href="https://www.instagram.com/soulcodeacademy/" target="_blank"><img src="https://www.brunopalmahidroponia.com.br/wp-content/uploads/2020/07/logo-instagram-png-fundo-transparente.png" alt="" ></a>
+     <a href="https://twitter.com/SoulCodeAcademy" target="_blank"><img src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-5.png" alt=""></a>
+    <a href="https://soulcode.com/" target="_blank"><img src="https://file-uploads.teachablecdn.com/f99201c2a8634558b85805370dbb33f1/cccabba273ce4c0e9001ec5f90adf97e" alt=""> </a>
+</footer>
+
+<script>
+    alert("Obrigado por se cadastrar em nosso site!");
+</script>
+</html>

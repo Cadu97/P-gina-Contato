@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300&family=Sedgwick+Ave&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    min-height: 77vh;
+    background: #67a1f8;
+}
+header{
+    padding: 0px;
+    text-align: center;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    color: #684ba1;
+    font-size: 1rem;
+    margin: 1.5rem;
+
+}
+header li {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+header a {
+    text-decoration: none;
+    color: #4a5769;    
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 80vh;
+    
+}
+
+.div-form{
+    width: 50vh;
+    background-color: #bb99ff;
+    border-radius: 20px;
+}
+.div-form form {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(35, 185, 22);
+    margin: 20px;
+}
+
+form label{
+    color: #0068ff;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 20px;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    transition: all 0.5s;
+}
+
+form textarea:focus{
+    border-radius: 20px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #0068ff;
+    border: 2px solid rgb(167, 167, 229);
+    color: rgb(208, 208, 241);
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+form button:hover{
+    background-color: rgb(167, 167, 229);
+    color: #0068ff;
+    border-radius: 20px;
+}
+
+.aside{
+    width: 26vw;
+    /* background-color: green; */
+    height: 60vh;
+}
+
+.aside img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    height: 25vh;
+    background-image: linear-gradient(to right, rgb(199, 135, 194) , rgb(146, 199, 196),rgb(213, 169, 238) );
+}
+
+footer p{
+    display: inline;
+    margin-right: 10px;
+}
+footer img{
+    margin-top: 10px;
+    align-items: center;
+    width: 40px;
+    margin-right: 10px;
+}
+
+
+    

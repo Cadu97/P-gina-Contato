@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300&family=Sedgwick+Ave&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #67a1f8;
+
+}
+
+header {
+    text-align: center;
+    height: 50px;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #bb99ff;
+    background-color: #81a9e6;
+}
+
+header li {
+    display: inline-block;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: #4a5769;  
+    border: 2px solid black;  
+    padding: 7px;
+}
+
+.Form{
+    display: flex;
+    justify-content: space-around;
+}
+section Form{
+    padding: 20px 50px;
+    border-radius: 20px;
+    background-color: #bb99ff;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+section h2{
+    color: #0068ff;
+    font-size: 1.8em;
+    margin: 1rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+form label{
+    color: #0068ff;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+form input{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+form input:focus{
+    border-radius: 20px;
+}
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #0068ff;
+    border: 2px solid rgb(167, 167, 229);
+    color: rgb(208, 208, 241);
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+form button:hover{
+    background-color: rgb(167, 167, 229);
+    color: #0068ff;
+    border-radius: 20px;
+}
+
+video{
+    width: 500px;
+}
+.Rodape{
+    flex-shrink: 0;
+    padding: 15px unset;
+    text-align: center;
+}
+footer{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    height: 25vh;
+    background-image: linear-gradient(to right, rgb(199, 135, 194) , rgb(146, 199, 196),rgb(213, 169, 238) );
+}
+
+footer p{
+    display: inline;
+    margin-right: 10px;
+}
+footer img{
+    margin-top: 10px;
+    align-items: center;
+    width: 40px;
+    margin-right: 10px;
+}
+section testando{
+    display: block;
+    flex-direction:column;
+    flex: 1;
+    background: red;
+}
+aside{
+    height: 50vh;
+    background-image: linear-gradient(to right, rgb(245, 217, 242) , rgb(211, 247, 245),rgb(228, 205, 241) );
+    width: 10vh;
+}
+
+aside p{
+    text-align: center;
+}
